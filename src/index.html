@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>mySliderUnit</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <script type="text/javascript" src="assets/js/lib/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/lib/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/lib/fontawesome.all.min.js"></script>
+  <link rel="stylesheet" href="assets/css/bootstrap.custom.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+  <main class="container mt-2">
+    <div class="row">
+      <div class="col">
+        <!-- スライダー -->
+        <div class="slider-wrapper">
+          <h5 class="mb-2">mySliderUnit</h5>
+          <div class="slider-main">
+            <button type="button" id="prev" class="btn rounded-0">
+              <img src="./assets/img/common/prev.svg" class="img arrow" alt="">
+            </button>
+            <!-- スライダーメイン画像 -->
+            <div id="mainImageBox" class="inner"></div>
+            <button type="button" id="next" class="btn rounded-0">
+              <img src="./assets/img/common/next.svg" class="img arrow" alt="">
+            </button>
+          </div>
+          <!-- スライダーサムネイル -->
+          <div id="thumbnails" class="d-flex flex-wrap justify-content-center mb-2"></div>
+          <div class="mb-2">
+            <p id="play" class="btn btn-primary btn-sm">Play</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="assets/js/slider.js"></script>
+</body>
+
+</html>
